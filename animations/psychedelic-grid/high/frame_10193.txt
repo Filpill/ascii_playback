@@ -1,0 +1,45 @@
+       \                     LCD@@@@@@WWW@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@B@    @p e@@   6@M@=       5@B@@@@@@@@@@@@@@@@@@@@@@@@BWW@@@@ds                      
+                                  7V&@@@@@@WWB@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@    @G 1@@   G@N@?       f@W@@@@@@@@@@@@@@@@@@@@@WWB@@@Mwi        LwBQ             
+                     c}r              =jwg@@@@@BWWB@@@@@@@@@@@@@@@@@@@@@@@@@W    @G 1@@   3@N@}       =@W@@@@@@@@@@@@@@@@@BWW@@@@d{         fb@@@@@@)           
+                   zQ@@@@mF>               \xX0@@@@@BWWB@@@@@@@@@@@@@@@@@@@@#    @q n@@   o@N@w        @@@@@@@@@@@@@@@@WWB@@@NVL        rng@@@MWB@B@@f          
+QPJI               fK@@@M@@@@#V]                ){SR@@@@@WWWB@@@@@@@@@@@@@@@9    @q 1@@   [@M@d        d@B@@@@@@@@@BWW@@@@ds         LA@@@@\ @@W@@@@W@J         
+B@@@[                 [0@@@Zk@@@@@Exr                <IAM@@@@@WWWB@@@@@@@@B@G    @q u@@+  7@M@Q        F@W@@@@@@WW@@@@QV|         f&@@e+ 3@N  O@B@@@@M@a        
+@@NN@@8e/               rXf    lo#@@@@dn>                 |npB@@@@@WWW@@@@B@X    @p f@@<  l@W@@        >@W@@BWW@@@@KY         =y@@@J      ]@@( V@B@@@W8@N       
+jb@@@MB@@@A7     rFdSx             |2g@@@@gkc                  ?FK@@@@@@WWM@k    @q j@@L  +@WW@         @MW@@@@8k|         >5@@U7          2@@T Q@WW@@as[       
+   Tp@@@NM@@@6nr     jE93?             )F&@@@@WEY\                  c2D@@@@@C    @q z@@T   @WW@<        Q@@@Gx          7D@@q|              0@@@M@@@8J          
+      cA@@@MQ@@@@5i     \FDdJ+      jT     (n9@@@@@dF|                   TZWI    @q j@@f   @BW@j        Z3<          uN@@h+   f6@?        <VQWN@@@h\            
+         iE@@@WQB@@@D{      cXgqf   kN@@SL     \ud@@@@@gV7                       @q z@@}   @@W@o                 )V@@@F    I0@@@P7     +ZW@@@@@p?             >H
+            LX@@@WQW@@@Qe>      um0k<  Lw@@@w<     +Ib@@@@@WA{\                 =@q c@@C   W@W@A              cp@@QY    yW@@@Si      FQ@@@@@6s              {8@@
+               |3@@@@QN@@@@Pj      l3&qs=  Tp@@@k/     =}p@@@@@@mCL             (@q l@@Z   6@B@g           sg@@9c   \k@@@@%i      u0@@@@@Wo              \X@@@WB
+                  <w@@@@QQ@@@@6J+      {bgac   Y&@@WC\     =sPB@@@@@#3t         (@q L@@X   G@B@@       \2@@@H>   >a@@@@%?      }6@@@@@@S>              fg@@BW@@@
+                     )kW@@@NQW@@@Wai      /4g6o/  \yM@@QJ+      xHM@@@@@Wq[(    =@q L@@E   a@WW@    LS@@@kr   iA@@@@%i      f9@@@@@@Dt               V@@@WB@@@@@
+                        (ZM@@@MQM@@@@ds       tqMms   |h@@@6[       fSQ@@@@@@9e<f@q L@@m   o@WB@fvU@@@n    7K@@@@%?      TG@@@W@@Qu               T$@@@W@@@@@@@@
+                           +oQ@@@WNMB@@@RZ<      rygWSc   cA@@@Ds       jXQ@@@@@@@D >@@U   {@QB@@@#x    Y$@@@@X?      iA@@@M@@@V\               2@@@WW@@@@@@@@@@
+                              =FR@@@WMMW@@@@A7       iE@Q2)   xU@@@pz       7a0@@@0 r@@0   v@@@Kc    u#@@@@X?      l%@@@N@@@pi               ?d@@@W@@@@@@@@@@@@@
+                                  1g@@@WMWW@@@@$1+       }6@&s   rnQ@@@At       c5m r@BN   lD>   =oN@@@@XL      <w@@@MW@@Ox                J@@@WW@@@@@@@@@@@@@@@
+                                     I6@@@WWWWW@@@W3?       <w@@Ai   <V@@@@X7       \@W@      (V@@@@@X?      +ZW@@WN@@Bo                >q@@@WB@@@@@@@@@@@@@@@@@
+                                        {$@@@@@@WW@@@@KY        jm@@e(   cH@@@@3]    @M@   LX@@@@@XL       FQ@@BQ@@@%<                [Q@@WW@@@@@@@@@@@@@@@@@@@B
+                                           sGM@@@@@WWB@@@02/       rCB@0s    zd@@@W2e@B@JE@@@@@Xl       Ig@@@Q@@@D7                (S@@@WB@@@@@@@@@@@@@@@@@@@BW@
+                                             k@B@@@@@@BWW@@@@9T        <P@Nwc   /IU@@@@@@@B0a?       s6@@@W@@@Ru                 x0@@BW@@@@@@@@@@@@@@@@@@@@BW@@A
+                                           oQ@@@@@@@@@BW@@@B3L         (a@@@d]    3WQ@@@WW6)      [N@@@QM@@0k(                =w@@@WB@@@@@@@@@@@@@@@@@@@@BW@@b= 
+                                        jU@@@@@@@@@BW@@@@a>         vb@@@o=   <wW@@@@@@@@@@@Dur    tE@@@@@g/                79@@BW@@@@@@@@@@@@@@@@@@@@@@W@@m(   
+                                     <S@@@WW@@@@BW@@@@Xl         zU@@Qs    ]A@@@@@d[ a@@% 7S@@@@Si    rF0@@@U[             q@@@WWB@@@@@@@@@@@@@@@@@@@@@@@d(     
+                                   CW@@BW@@@@BW@@@@Sl         {R@@Uv    Y9@@@@N3i    X@@1     xd@@@MC+    cA@@@WZ)           LX@@@@WW@@@@@@@@@@@@@@@@@@q=       
+                                z$@@@WB@@@BW@@@@S?         J@@@A>   =yQ@@@@Du+       G@@j        r1#@@@dz     1R@@@Av           >3@@@@WW@@@@@@@@@@@@@B@Z        
+                             |E@@@WW@@@BWB@@@E?        +Z@@@Vr   >a@@@@BXT        f6/P@@|    R5i     /e@@@@w<    ?E@@@O[           <VB@@@WW@@@@@@@@@@@@@@pl     
+                           o@@@BW@@@BWB@@@A]        )3@@@u    7b@@@@6F)       ?hN@@@)D@@=    @@@@QV>     ?S@@@0[     1Q@@@k/          (eM@@@WW@@@@@@@@@BW@@By   
+                        f6@@@WB@@BWB@@@Ac        |H@@#j    ug@@@@Hz       +ID@@@BM@@(#@@    =@NWW@@@@g2<     jd@@@qi    ?E@@@G7          +CQ@@@WW@@@@@@@@BW@@@Kc
+                     |A@@@WW@@BWB@@@qv        ]d@@bL   (e@@@@02>       vX@@@@W@@@@bD)N@@    ]@W@@@Q3g@@@@6J\     [R@@@or    uQ@@Qu           J0@@@WW@@@@@@@@WW@@
+                   2@@@BW@@BWB@@@GT        t6@@X(   ?E@@@@GY       )C6@@@B@@@@6C/  IL@@8    1@W@B@q   L26@@@@DIr    \2@@@&z    LE@@@3>          uO@@@WW@@@@@@@BW
+                xO@@@WB@BWW@@@b7        sQ@@o    fU@@@MVL       fq@@@@@@@@0kL      J?@@D    X@B@W@u       >yU@@@@m{     |X@@@X>    uM@@Dj          }$@@@WWB@@@@@
+             lA@@@WW@@WW@@@bt        n@@Ms   =FM@@@D[r      l40@@@@@@@WXv          ni@@%    &@@@W@/           )1m@@@@Gj     Td@@B1    ?q@@WF=         fD@@@BWB@@
+           Z@@@BW@@WW@@@dj       =o@@6c   >a@@@@5c      =}K@@@@@@@@Af              nv@@o    @@@@B@                \}b@@@@p7     {R@@%    \2@@@X|         zd@@@BW
+        Yg@@@WB@WW@@@mf       (k@@Kc   TK@@@OJ\      ]aM@@@@@@@d[=                 nj@@x    @W@@@#                    =Yq@@@@S]    (         TU@@qt         Tp@@
+     Lq@@@WWBWW@@@Df       <VM@d(     w@@H7      (JU@@@@@@@9J)                     uY@@?   (@W@B@3                         zH@@@@5i            EN@@@@2+        ]
+  re@@@WWBWW@@@UY       iq@@@@         =      tE@@@@@@@ge|                     <w  I[@@+   j@W@W@t          +gu>               T%@@@@a]            lnU@@b/      
+{g@@@WWWW@@@Us       cE@0a@QM@D           <2g@@@@@@8w]                     ckg@@@  [C@@    2@W@W@           Z@@@@R5f=              ]3@@@@Vl le<        (ZF      
+@@WW@@@@@6{         @@@@G l@@W@@       YG@@@@@@WEz                    =fSM@@@@BQ@  sk@@    q@B@@@           M@WWB@@@@@9o?              LVB@@@@@@qf              
+W@@@@@DY         @B s@QW@B  @@W@@t ie0@@@@@@qY                    (Ib@@@@@WWW@@B@  YX@N    0@@B@d          \@W@@@@BWW@@@@@MH{(             >y9@@@@@go>          
+@@@@B@a           @@]g@@N@@  0@BB@@@@@@@Dn(                   l2$@@@@@WWB@@@@@@B@  fq@$    @@@W@C          Z@W@@@@@@@@@WWW@@@@@6kv             <nd@@@@x         
+@@@@@W@d           6@2I@@W@@sb@@@@@@DF<                   730@@@@BWWB@@@@@@@@@@@@ =7d@H    @W@W@|          W@@@@@@@@@@@@@@@BWWB@@@@@bn>            (\           
+@@@@@@Q@J           G@v Z@BB@@@@@A7                   fSW@@@@WWW@@@@@@@@@@@@@@@@@ )7&@e   |@W@W@          \@W@@@@@@@@@@@@@@@@@@@WWW@@@@@#hT                     

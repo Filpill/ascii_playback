@@ -1,0 +1,171 @@
+#!/usr/bin/env bash
+
+# play_ascii - Play ASCII animations from asciify on an infinite loop
+# Usage: play_ascii [-q QUALITY] [-f FPS] [-a ANIMATION]
+
+ANIMATIONS_DIR="/home/filpill/programs/ascii_playback/animations"
+QUALITY="low"
+FPS=15
+SPECIFIC_ANIM=""
+
+# Zoom step counter (each step = one Ctrl+- sent to the terminal)
+ZOOM_STEPS=0
+ZOOM_WIN_ID=""
+
+usage() {
+  echo "Usage: $0 [-q QUALITY] [-f FPS] [-a ANIMATION]"
+  echo ""
+  echo "Options:"
+  echo "  -q  Quality tier: low (default), medium, high"
+  echo "  -f  Frames per second (default: 15)"
+  echo "  -a  Play a specific animation only (e.g. planet, fire, wave)"
+  echo "  -h  Show this help"
+  echo ""
+  echo "Press Ctrl+C to stop."
+  exit 0
+}
+
+while getopts "q:f:a:h" opt; do
+  case $opt in
+  q) QUALITY="$OPTARG" ;;
+  f) FPS="$OPTARG" ;;
+  a) SPECIFIC_ANIM="$OPTARG" ;;
+  h) usage ;;
+  *) usage ;;
+  esac
+done
+
+DELAY=$(awk "BEGIN {printf \"%.4f\", 1.0 / $FPS}")
+
+# ── xdotool zoom helpers ─────────────────────────────────────────────────────
+# Adjust terminal zoom bidirectionally so the frame fits on both axes at the
+# largest font possible.
+#
+# ZOOM_STEPS tracks how many Ctrl+- steps we are from the original font size.
+# Each call first zooms back in as far as possible (without either dimension
+# dropping below what the frame needs), then zooms out until both fit.
+_fits() {
+  local needed_cols="$1" needed_rows="$2"
+  [[ $(tput cols) -ge $needed_cols && $(tput lines) -ge $needed_rows ]]
+}
+
+zoom_to_fit() {
+  local needed_cols="$1"
+  local needed_rows="$2"
+
+  # Capture the window ID once so all key events go to our terminal
+  if [[ -z "$ZOOM_WIN_ID" ]]; then
+    ZOOM_WIN_ID=$(xdotool getactivewindow 2>/dev/null) || return 0
+  fi
+
+  # Phase 1 – zoom back in as far as possible while both axes still fit
+  while [[ $ZOOM_STEPS -gt 0 ]] && _fits "$needed_cols" "$needed_rows"; do
+    xdotool key --window "$ZOOM_WIN_ID" --clearmodifiers ctrl+equal
+    sleep 0.1
+    ((ZOOM_STEPS--))
+    # If that zoom-in overshot either axis, undo it and stop
+    if ! _fits "$needed_cols" "$needed_rows"; then
+      xdotool key --window "$ZOOM_WIN_ID" --clearmodifiers ctrl+minus
+      sleep 0.1
+      ((ZOOM_STEPS++))
+      break
+    fi
+  done
+
+  # Phase 2 – zoom out until both axes fit (no-op if already fine)
+  local max=40
+  while ! _fits "$needed_cols" "$needed_rows" && [[ $ZOOM_STEPS -lt $max ]]; do
+    xdotool key --window "$ZOOM_WIN_ID" --clearmodifiers ctrl+minus
+    sleep 0.12
+    ((ZOOM_STEPS++))
+  done
+}
+
+# Zoom back in by exactly as many steps as zoom_to_fit zoomed out.
+zoom_restore() {
+  local i
+  for ((i = 0; i < ZOOM_STEPS; i++)); do
+    xdotool key --window "$ZOOM_WIN_ID" --clearmodifiers ctrl+equal
+    sleep 0.08
+  done
+  ZOOM_STEPS=0
+  ZOOM_WIN_ID=""
+}
+# ─────────────────────────────────────────────────────────────────────────────
+
+play_animation() {
+  local anim_dir="$1"
+  local frames=("$anim_dir"/frame_*.txt)
+
+  [[ ! -e "${frames[0]}" ]] && return
+
+  # Frame dimensions from first frame
+  local frame_rows frame_width
+  frame_rows=$(wc -l < "${frames[0]}")
+  frame_width=$(wc -L < "${frames[0]}")
+
+  # Ensure the terminal is large enough on both axes
+  zoom_to_fit "$frame_width" "$frame_rows"
+
+  # Re-read terminal dimensions after potential resize
+  local term_rows term_cols
+  term_rows=$(tput lines)
+  term_cols=$(tput cols)
+
+  # Scale factor: largest integer that fits both axes
+  local h_scale v_scale scale
+  h_scale=$(( frame_width > 0 ? term_cols / frame_width : 1 ))
+  v_scale=$(( frame_rows > 0 ? term_rows / frame_rows : 1 ))
+  scale=$(( h_scale < v_scale ? h_scale : v_scale ))
+  (( scale < 1 )) && scale=1
+
+  # Centering offsets
+  local row_off col_off
+  row_off=$(( (term_rows - frame_rows * scale) / 2 ))
+  col_off=$(( (term_cols - frame_width * scale) / 2 ))
+  (( row_off < 0 )) && row_off=0
+  (( col_off < 0 )) && col_off=0
+
+  for frame in "${frames[@]}"; do
+    printf '\033[2J\033[H'
+    awk -v scale="$scale" -v row_off="$row_off" -v col_off="$col_off" '
+      BEGIN {
+        pad = sprintf("%*s", col_off, "")
+        for (i = 0; i < row_off; i++) print ""
+      }
+      {
+        scaled = ""
+        for (c = 1; c <= length($0); c++) {
+          ch = substr($0, c, 1)
+          for (s = 1; s <= scale; s++) scaled = scaled ch
+        }
+        for (v = 0; v < scale; v++) print pad scaled
+      }
+    ' "$frame"
+    sleep "$DELAY"
+  done
+}
+
+hide_cursor() { printf '\033[?25l'; }
+show_cursor() { printf '\033[?25h'; }
+
+hide_cursor
+trap 'show_cursor; zoom_restore; printf "\033[2J\033[H"; echo "Stopped."; exit 0' INT TERM
+
+while true; do
+  if [[ -n "$SPECIFIC_ANIM" ]]; then
+    dir="$ANIMATIONS_DIR/$SPECIFIC_ANIM/$QUALITY"
+    if [[ ! -d "$dir" ]]; then
+      echo "Animation '$SPECIFIC_ANIM' not found at quality '$QUALITY'."
+      show_cursor
+      zoom_restore
+      exit 1
+    fi
+    play_animation "$dir"
+  else
+    for anim_path in "$ANIMATIONS_DIR"/*/; do
+      dir="${anim_path%/}/$QUALITY"
+      [[ -d "$dir" ]] && play_animation "$dir"
+    done
+  fi
+done

@@ -1,0 +1,45 @@
+          S@WBBBBBBBBB                                    w@WBBBBBBBW@                                    2@MBBBBBBBW@                                    I@NBBB
+         >@NBBBBBBBN@x                                    6@WBBBBBBW@W                                    ?@NBBBBBBBN@7                                    #@WBB
+         @@WBBBBBBW@M                                     @WBBBBBBBW@O                                     @MBBBBBBBW@d                                     @NBB
+        2@NBBBBBBBN@7                                    r@NBBBBBBBW@b                                     0@WBBBBBBBM@                                     n@NB
+        @NBBBBBBBW@R                                     t@NBBBBBBBW@X                                     w@MBBBBBBBN@f                                     g@W
+       6@WBBBBBBBN@i                                     V@MBBBBBBBM@2                                     T@NBBBBBBBW@9                                      @N
+      s@NBBBBBBBW@6                                      $@WBBBBBBBN@}                                      @MBBBBBBBBM@                                      I@
+      @MBBBBBBBBN@|                                      @WBBBBBBBBN@v                                      M@WBBBBBBBN@}                                      6
+     q@WBBBBBBBW@9                                       @NBBBBBBBBN@>                                      S@WBBBBBBBW@6                                       
+    i@QBBBBBBBBN@)                                      7@NBBBBBBBBN@r                                      f@NBBBBBBBBN@                                       
+    @BWBBBBBBBW@b                                       e@MBBBBBBBBM@                                       =@NBBBBBBBBM@1                                      
+   k@MBBBBBBBBN@r                                       9@WBBBBBBBBW@                                        @BBBBBBBBBW@0                                      
+  \@NBBBBBBBBW@A                                        @WBBBBBBBBBB@                                        G@WBBBBBBBBN@=                                     
+  R@WBBBBBBBBN@                                         @NBBBBBBBBW@0                                        I@NBBBBBBBBM@C                                     
+ }@NBBBBBBBBW@X                                        v@NBBBBBBBBW@D                                        (@NBBBBBBBBW@Q                                     
+ @WBBBBBBBBBM@                                         2@MBBBBBBBBW@H                                         @WBBBBBBBBBN@\                                    
+&@WBBBBBBBBM@h                                         m@WBBBBBBBBM@k                                         D@WBBBBBBBBM@e                                    
+@WBBBBBBBBBM@                                          @BBBBBBBBBBM@1                                         y@MBBBBBBBBW@W                                    
+WBBBBBBBBBM@2                                          @NBBBBBBBBBN@z                                         >@NBBBBBBBBBN@/                                   
+BBBBBBBBBBW@                                          i@NBBBBBBBBBN@L                                          @WBBBBBBBBBM@w                                   
+BBBBBBBBBN@n                                          C@MBBBBBBBBBN@(                                          g@WBBBBBBBBBB@                                   
+BBBBBBBBBW@                                           K@WBBBBBBBBBN@                                           4@MBBBBBBBBBN@|                                  
+BBBBBBBBN@[                                           @BBBBBBBBBBBW@                                           ]@NBBBBBBBBBW@X                                  
+BBBBBBBBB@                                            @MBBBBBBBBBBW@                                            @MBBBBBBBBBBW@                                  
+BBBBBBBN@x                                           ?@NBBBBBBBBBW@Q                                            8@WBBBBBBBBBN@i                                 
+BBBBBBW@W                                            F@MBBBBBBBBBW@$                                            a@WBBBBBBBBBW@A                                 
+BBBBBBN@7                                            G@WBBBBBBBBBW@q                                            t@NBBBBBBBBBBW@                                 
+BBBBBW@R                                             W@WBBBBBBBBBW@3                                             @NBBBBBBBBBBN@v                                
+BBBBBN@i                                             @MBBBBBBBBBBM@F                                             BBBBBBBBBBBBW@G                                
+BBBBW@O                                             l@NBBBBBBBBBBN@Y                                             A@WBBBBBBBBBBM@                                
+BBBBN@|                                             n@MBBBBBBBBBBN@c                                             s@NBBBBBBBBBBN@z                               
+BBBW@U                                              q@WBBBBBBBBBBN@/                                             +@NBBBBBBBBBBW@m                               
+BBBN@)                                              M@WBBBBBBBBBBN@                                               @WBBBBBBBBBBBM@                               
+BBW@b                                               @MBBBBBBBBBBBM@                                               K@WBBBBBBBBBBN@s                              
+BBN@r                                              >@NBBBBBBBBBBBW@                                               n@MBBBBBBBBBBW@$                              
+BW@P                                               u@MBBBBBBBBBBW@W                                               /@NBBBBBBBBBBBM@                              
+BN@                                                A@WBBBBBBBBBBW@g                                                @WBBBBBBBBBBBM@I                             
+M@X                                                Q@WBBBBBBBBBBW@b                                                U@WBBBBBBBBBBW@g                             
+N@                                                 @MBBBBBBBBBBBW@X                                                2@MBBBBBBBBBBBN@                             
+@w                                                <@NBBBBBBBBBBBM@Z                                                L@NBBBBBBBBBBBM@F                            
+@                                                 [@NBBBBBBBBBBBN@}                                                 @MBBBBBBBBBBBW@8                            
+o                                                 E@WBBBBBBBBBBBN@j                                                 #@WBBBBBBBBBBBN@(                           
+$dDmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmdDWBBBBBBBBBBBBBB@#dmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmdN@BBBBBBBBBBBBB@8dmmmmmmmmmmmmmmmmmmmmmmmmmm
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@BBBBBBBBBBBBBBBB@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@BBBBBBBBBBBBBBW@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWBBBBBBBBBBBBBBBBWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWBBBBBBBBBBBBBBBBWWWWWWWWWWWWWWWWWWWWWWWWWWWW
